@@ -1,0 +1,5 @@
+/home/erick/workspace/MyBank/src/test/java/br/ufc/dc/tpii/bank/test/control/BankControllerTest.java
+/home/erick/workspace/MyBank/src/test/java/br/ufc/dc/tpii/bank/test/account/SavingsAccountTest.java
+/home/erick/workspace/MyBank/src/test/java/br/ufc/dc/tpii/bank/test/account/SpecialAccountTest.java
+/home/erick/workspace/MyBank/src/test/java/br/ufc/dc/tpii/bank/test/account/OrdinaryAccountTest.java
+/home/erick/workspace/MyBank/src/test/java/br/ufc/dc/tpii/bank/test/account/TaxAccountTest.java
