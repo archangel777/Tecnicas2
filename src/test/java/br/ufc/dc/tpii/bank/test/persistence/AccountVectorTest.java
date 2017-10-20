@@ -53,7 +53,7 @@ public class AccountVectorTest {
 		vector.create(new OrdinaryAccount("123B"));
 		assertEquals("Erro ao pedir numero de contas.", 2, vector.mumberOfAccounts());
 		vector.create(new OrdinaryAccount("123C"));
-		vector.create(new OrdinaryAccount("123B"));
+		vector.create(new OrdinaryAccount("123D"));
 		vector.create(new OrdinaryAccount("123E"));
 		assertEquals("Erro ao pedir numero de contas.", 5, vector.mumberOfAccounts());
 	}

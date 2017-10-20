@@ -12,6 +12,7 @@ public class SavingsAccount extends OrdinaryAccount {
 		try {
 			this.credit(this.getBalance() * 0.001);
 		} catch (NegativeAmountException e) {
+			e.printStackTrace();
 		}
 	}
 }

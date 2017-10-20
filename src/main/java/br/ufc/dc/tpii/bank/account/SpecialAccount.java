@@ -15,6 +15,7 @@ public class SpecialAccount extends OrdinaryAccount {
 		try {
 			super.credit(bonus);
 		} catch (NegativeAmountException nae) {
+			nae.printStackTrace();
 		} finally {
 			bonus = 0;
 		}
@@ -26,6 +27,6 @@ public class SpecialAccount extends OrdinaryAccount {
 
 	public void credit(double amount) throws NegativeAmountException {
 		super.credit(amount);
-		this.bonus += (amount * 0.01);
+		this.bonus += amount * 0.01;
 	}
 }

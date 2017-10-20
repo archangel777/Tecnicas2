@@ -1,0 +1,6 @@
+br/ufc/dc/tpii/bank/test/account/TaxAccountTest.class
+br/ufc/dc/tpii/bank/test/persistence/AccountVectorTest.class
+br/ufc/dc/tpii/bank/test/account/SpecialAccountTest.class
+br/ufc/dc/tpii/bank/test/account/OrdinaryAccountTest.class
+br/ufc/dc/tpii/bank/test/account/SavingsAccountTest.class
+br/ufc/dc/tpii/bank/test/control/BankControllerTest.class

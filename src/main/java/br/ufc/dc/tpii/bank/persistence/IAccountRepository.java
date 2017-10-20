@@ -8,15 +8,15 @@ import br.ufc.dc.tpii.bank.persistence.exception.FlushException;
 
 public interface IAccountRepository {
 
-	public void create(AbstractAccount account) throws AccountCreationException;
+	void create(AbstractAccount account) throws AccountCreationException;
 
-	public void delete(String number) throws AccountDeletionException;
+	void delete(String number) throws AccountDeletionException;
 
-	public AbstractAccount retrieve(String number) throws AccountNotFoundException;
+	AbstractAccount retrieve(String number) throws AccountNotFoundException;
 
-	public AbstractAccount[] list();
+	AbstractAccount[] list();
 
-	public int mumberOfAccounts();
+	int mumberOfAccounts();
 
-	public void flush() throws FlushException;
+	void flush() throws FlushException;
 }
